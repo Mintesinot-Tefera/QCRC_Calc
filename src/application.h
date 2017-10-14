@@ -24,8 +24,8 @@ class Application : public QGuiApplication
 
         static Application& get_instance(int &argc, char **argv)
         {
-            static Application* singleton = new Application(argc, argv);
-            return *singleton;
+            static Application singleton(argc, argv);
+            return singleton;
         }
 
 
