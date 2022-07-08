@@ -3,8 +3,7 @@
  *
  *
  * version 1.3
- *
- *
+
  * BSD 3-Clause License
  *
  * Copyright (c) 2015, Koynov Stas - skojnov@yandex.ru
